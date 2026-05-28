@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Krishna Agri Supply - Fresh farm products, dairy, vegetables, and agri-tech solutions for farmers and households." />
+  <meta name="theme-color" content="#1f7a4d" />
+  <title>Krishna Agri Supply - Fresh Farm Products & Agri-Tech Solutions</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' fill='%231f7a4d'>🌾</text></svg>" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo" aria-label="Krishna Agri Supply home">
+        <span class="logo-icon">🌾</span>
+        <span class="logo-text">Krishna Agri</span>
+      </a>
+      
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#products" class="nav-link">Products</a></li>
+        <li><a href="#agritech" class="nav-link">Agri-Tech</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#products" class="nav-link button-small">Order Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home" class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1 class="hero-title">Connecting Farmers to Your Table</h1>
+        <p class="hero-subtitle">Fresh farm produce, dairy products, and agricultural technology in one trusted platform</p>
+        <div class="hero-buttons">
+          <a href="#products" class="button button-primary">Shop Now</a>
+          <button class="button button-secondary" id="enquireHeroBtn">Send Inquiry</button>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="hero-illustration">
+          <span>🚜</span>
+          <span>🥬</span>
+          <span>🥛</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <strong>500+</strong>
+        <span>Happy Customers</span>
+      </div>
+      <div class="stat">
+        <strong>100+</strong>
+        <span>Farmers Partner</span>
+      </div>
+      <div class="stat">
+        <strong>24/7</strong>
+        <span>WhatsApp Support</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Features Section -->
+  <section class="features">
+    <div class="container">
+      <h2>Why Choose Krishna Agri Supply?</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🌱</div>
+          <h3>100% Fresh</h3>
+          <p>Farm-to-table products picked fresh daily from trusted farmers</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>Quick Delivery</h3>
+          <p>Same-day delivery available in selected areas</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">💰</div>
+          <h3>Best Prices</h3>
+          <p>Direct from farmers means no middlemen and better prices</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🤝</div>
+          <h3>Support Farmers</h3>
+          <p>Your purchase directly supports local farming communities</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📱</div>
+          <h3>Easy Ordering</h3>
+          <p>Simple WhatsApp ordering and tracking system</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">✅</div>
+          <h3>Quality Guaranteed</h3>
+          <p>Quality checked before every delivery</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="products">
+    <div class="container">
+      <div class="section-header">
+        <h2>Our Products</h2>
+        <p>Handpicked fresh produce and dairy from trusted farmers</p>
+      </div>
+
+      <div class="products-grid">
+        <!-- Fresh Food -->
+        <div class="product-card" data-category="food">
+          <div class="product-image food-image">
+            <span class="emoji">🍎</span>
+            <span class="badge">Fresh</span>
+          </div>
+          <div class="product-info">
+            <h3>Fresh Food Basket</h3>
+            <p class="category-badge">Staples & Produce</p>
+            <p class="description">Seasonal vegetables, grains, and essential staples curated for your daily kitchen needs.</p>
+            <div class="product-details">
+              <span class="price">₹499</span>
+              <span class="delivery">Free delivery on orders 500+</span>
+            </div>
+            <div class="product-actions">
+              <button class="button button-secondary button-small" data-product="Fresh Food Basket" data-price="499">Quick Add</button>
+              <button class="button button-outline button-small enquire-btn" data-product="Fresh Food Basket">Details</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dairy -->
+        <div class="product-card" data-category="dairy">
+          <div class="product-image dairy-image">
+            <span class="emoji">🥛</span>
+            <span class="badge">Best Seller</span>
+          </div>
+          <div class="product-info">
+            <h3>Dairy Essentials Pack</h3>
+            <p class="category-badge">Milk & Dairy</p>
+            <p class="description">Fresh milk, curd, paneer, and ghee from trusted dairy farmers with quality guarantee.</p>
+            <div class="product-details">
+              <span class="price">₹349</span>
+              <span class="delivery">Fresh daily delivery</span>
+            </div>
+            <div class="product-actions">
+              <button class="button button-secondary button-small" data-product="Dairy Essentials Pack" data-price="349">Quick Add</button>
+              <button class="button button-outline button-small enquire-btn" data-product="Dairy Essentials Pack">Details</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Vegetables -->
+        <div class="product-card" data-category="vegetables">
+          <div class="product-image vegetable-image">
+            <span class="emoji">🥬</span>
+            <span class="badge">Organic</span>
+          </div>
+          <div class="product-info">
+            <h3>Vegetable Crate</h3>
+            <p class="category-badge">Fresh Vegetables</p>
+            <p class="description">Hand-picked fresh vegetables perfect for home cooking and small retail stores.</p>
+            <div class="product-details">
+              <span class="price">₹299</span>
+              <span class="delivery">Weekly subscription available</span>
+            </div>
+            <div class="product-actions">
+              <button class="button button-secondary button-small" data-product="Vegetable Crate" data-price="299">Quick Add</button>
+              <button class="button button-outline button-small enquire-btn" data-product="Vegetable Crate">Details</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Premium Organic -->
+        <div class="product-card" data-category="organic">
+          <div class="product-image organic-image">
+            <span class="emoji">🌿</span>
+            <span class="badge">Premium</span>
+          </div>
+          <div class="product-info">
+            <h3>Organic Bundle</h3>
+            <p class="category-badge">Certified Organic</p>
+            <p class="description">100% certified organic produce without pesticides or chemicals.</p>
+            <div class="product-details">
+              <span class="price">₹699</span>
+              <span class="delivery">Pre-order only</span>
+            </div>
+            <div class="product-actions">
+              <button class="button button-secondary button-small" data-product="Organic Bundle" data-price="699">Quick Add</button>
+              <button class="button button-outline button-small enquire-btn" data-product="Organic Bundle">Details</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bulk Order -->
+        <div class="product-card" data-category="bulk">
+          <div class="product-image bulk-image">
+            <span class="emoji">📦</span>
+            <span class="badge">Bulk</span>
+          </div>
+          <div class="product-info">
+            <h3>Bulk Farm Supply</h3>
+            <p class="category-badge">Restaurants & Retailers</p>
+            <p class="description">Wholesale quantities for restaurants, hotels, and retail stores with special pricing.</p>
+            <div class="product-details">
+              <span class="price">Custom Quote</span>
+              <span class="delivery">Bulk delivery available</span>
+            </div>
+            <div class="product-actions">
+              <button class="button button-secondary button-small enquire-btn" data-product="Bulk Farm Supply">Get Quote</button>
+              <button class="button button-outline button-small enquire-btn" data-product="Bulk Farm Supply">Bulk Order</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Agri-Tech -->
+        <div class="product-card" data-category="agritech">
+          <div class="product-image agritech-image">
+            <span class="emoji">🚜</span>
+            <span class="badge">New</span>
+          </div>
+          <div class="product-info">
+            <h3>Agri-Tech Solutions</h3>
+            <p class="category-badge">Farm Technology</p>
+            <p class="description">Agricultural tools, seeds, fertilizers, and farming consultations for better yields.</p>
+            <div class="product-details">
+              <span class="price">Variable</span>
+              <span class="delivery">Expert consultation included</span>
+            </div>
+            <div class="product-actions">
+              <button class="button button-secondary button-small enquire-btn" data-product="Agri-Tech Solutions">Learn More</button>
+              <button class="button button-outline button-small enquire-btn" data-product="Agri-Tech Solutions">Consult</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Agri-Tech Section -->
+  <section id="agritech" class="agritech-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Agri-Tech & Farmer Support</h2>
+        <p>Modern agricultural solutions for better yields and sustainable farming</p>
+      </div>
+
+      <div class="agritech-grid">
+        <div class="agritech-card">
+          <h3>🌾 Quality Seeds</h3>
+          <p>Certified high-yield seeds suitable for various crops and seasons</p>
+        </div>
+        <div class="agritech-card">
+          <h3>🧪 Organic Fertilizers</h3>
+          <p>Chemical-free, environment-friendly fertilizers for sustainable farming</p>
+        </div>
+        <div class="agritech-card">
+          <h3>👨‍🌾 Expert Consultation</h3>
+          <p>Free consultation with agriculture experts for crop planning and pest management</p>
+        </div>
+        <div class="agritech-card">
+          <h3>🛠️ Farm Equipment</h3>
+          <p>Modern farm tools and equipment at affordable prices</p>
+        </div>
+      </div>
+
+      <div class="agritech-cta">
+        <h3>Ready to improve your farm yield?</h3>
+        <button class="button button-primary" id="enquireAgritechBtn">Get Expert Consultation</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content">
+          <h2>About Krishna Agri Supply</h2>
+          <p>We bridge the gap between farmers and consumers, ensuring fresh, quality products reach your table directly from the farm.</p>
+          <p>Our mission is to support local farming communities while providing households and businesses with the freshest agricultural products at fair prices.</p>
+          <ul class="about-list">
+            <li>✓ Direct from 100+ partner farmers</li>
+            <li>✓ Quality checked and verified</li>
+            <li>✓ Fair prices without middlemen</li>
+            <li>✓ Supporting sustainable farming</li>
+            <li>✓ 24/7 customer support</li>
+          </ul>
+        </div>
+        <div class="about-image">
+          <div class="image-placeholder">
+            <span>👨‍🌾</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <h2>What Our Customers Say</h2>
+        <p>Real feedback from our happy customers and farmers</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="rating">★★★★★</div>
+          <p class="testimonial-text">"The freshness of vegetables and dairy products is incredible. The delivery is always on time and the customer service is excellent!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">👩</div>
+            <div>
+              <strong>Priya Sharma</strong>
+              <small>Regular Customer</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="rating">★★★★★</div>
+          <p class="testimonial-text">"As a farmer, I'm happy to directly reach consumers and get fair prices for my produce. Krishna Agri Supply has changed my business!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">👨</div>
+            <div>
+              <strong>Rajesh Kumar</strong>
+              <small>Partner Farmer</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="rating">★★★★★</div>
+          <p class="testimonial-text">"Our restaurant sources all vegetables from Krishna Agri Supply. The quality is consistent and the prices are the best in the market."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">👨‍💼</div>
+            <div>
+              <strong>Vikram Patel</strong>
+              <small>Restaurant Owner</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="rating">★★★★★</div>
+          <p class="testimonial-text">"Best decision to subscribe to their weekly vegetable crate. It's fresh, affordable, and supports local farmers. Highly recommended!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">👩</div>
+            <div>
+              <strong>Anjali Desai</strong>
+              <small>Homemaker</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2>Get In Touch</h2>
+        <p>Contact us directly or fill the form below</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <span class="contact-icon">📱</span>
+            <div>
+              <h4>WhatsApp</h4>
+              <a href="https://wa.me/919876543210" target="_blank">+91 98765 43210</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">📧</span>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:info@krishnaagrisupply.com">info@krishnaagrisupply.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">📍</span>
+            <div>
+              <h4>Address</h4>
+              <p>Farm Supply Hub<br>Agricultural District<br>State, PIN Code</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">⏰</span>
+            <div>
+              <h4>Hours</h4>
+              <p>6:00 AM - 10:00 PM<br>All days open</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number *</label>
+            <input type="tel" id="phone" name="phone" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+
+          <button type="submit" class="button button-primary">Send Message via WhatsApp</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-section">
+          <h4>Krishna Agri Supply</h4>
+          <p>Connecting farmers to consumers with fresh, quality agricultural products.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Instagram">📷</a>
+            <a href="#" aria-label="Twitter">𝕏</a>
+            <a href="#" aria-label="WhatsApp">💬</a>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#agritech">Agri-Tech</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Delivery Info</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Newsletter</h4>
+          <p>Subscribe for fresh deals and updates</p>
+          <form class="newsletter-form" id="newsletterForm">
+            <input type="email" placeholder="Your email" required />
+            <button type="submit" class="button button-secondary">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Krishna Agri Supply. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Inquiry Modal -->
+  <div class="modal" id="inquiryModal" aria-hidden="true">
+    <div class="modal-content">
+      <button class="modal-close" id="closeInquiry" aria-label="Close modal">×</button>
+      <h2>Product Inquiry</h2>
+      <p id="inquiryProductName">Tell us how we can help</p>
+
+      <form class="modal-form" id="inquiryForm">
+        <div class="form-group">
+          <label for="inquiryName">Full Name *</label>
+          <input type="text" id="inquiryName" name="name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="inquiryPhone">Phone Number *</label>
+          <input type="tel" id="inquiryPhone" name="phone" required />
+        </div>
+
+        <div class="form-group">
+          <label for="inquiryEmail">Email Address *</label>
+          <input type="email" id="inquiryEmail" name="email" required />
+        </div>
+
+        <div class="form-group">
+          <label for="inquiryMessage">Your Query *</label>
+          <textarea id="inquiryMessage" name="message" rows="4" required></textarea>
+        </div>
+
+        <input type="hidden" id="inquiryProduct" name="product" />
+        <button type="submit" class="button button-primary">Send Inquiry</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
